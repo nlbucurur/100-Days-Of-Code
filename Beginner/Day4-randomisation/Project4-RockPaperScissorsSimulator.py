@@ -55,7 +55,7 @@ elif choice == 1:
         print("Computer choice:\n" + ops[1] + "\n" + "draw")
 
 elif choice == 2:
-    print("Your choice:\n" + ops[0])
+    print("Your choice:\n" + ops[2])
     if pc == 0:
         print("Computer choice:\n" + ops[0] + "\nYou lose!")
     elif pc == 1:
