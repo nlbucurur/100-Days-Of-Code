@@ -69,3 +69,8 @@ password = "".join(random.sample(basic_password, k=len(basic_password)))
 
 print(password)
 """
+
+
+def lole():
+    """fghjkl."""
+    print("lole")

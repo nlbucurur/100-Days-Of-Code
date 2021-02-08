@@ -18,5 +18,5 @@ input("What is your name? ")
 
 # Aquí todo va de adentro hacia afuera, así que va a hacer lo siguiente.
 # Pregunta primero el nombre
-#luego dice Hello + el nombre.
+# luego dice Hello + el nombre.
 print("Hello " + input("What is your name? ") + "!")
