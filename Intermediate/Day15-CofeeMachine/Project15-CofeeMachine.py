@@ -94,3 +94,6 @@ while not the_end:
             if MENU[command]['ingredients']['coffee'] < resources['coffee']:
                 print("Sorry there is not enough coffee.")
             the_end = True
+
+    elif command == "off":
+        the_end = True
