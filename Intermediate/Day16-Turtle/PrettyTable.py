@@ -1,6 +1,6 @@
 """import another module."""
 
-from turtle import turtle, screen
+# from turtle import turtle, screen
 
 # timmy = turtle()
 # print(timmy)
@@ -14,9 +14,9 @@ from turtle import turtle, screen
 #
 # my_screen.exitonclic()
 
-from prettytable import prettytable
+from prettytable import PrettyTable
 
-table = prettytable()
+table = PrettyTable()
 
 table.add_column("pokemon name", ["pikachu", "squirtle", "charmander"])
 table.add_column("type", ["electric", "water", "fire"])
