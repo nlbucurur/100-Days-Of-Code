@@ -6,29 +6,29 @@ screen = Screen()
 
 
 def move_forwards():
-    """Move forwards"""
+    """Move forwards."""
     tim.forward(10)
 
 
 def move_backwards():
-    """Move Backwards"""
+    """Move Backwards."""
     tim.backward(10)
 
 
 def move_counter_clockwise():
-    """Move_counter_clockwise"""
+    """Move_counter_clockwise."""
     new_heading = tim.heading() + 10
     tim.setheading(new_heading)
 
 
 def move_clockwise():
-    """Move_counter_clockwise"""
+    """Move_counter_clockwise."""
     new_heading = tim.heading() - 10
     tim.setheading(new_heading)
 
 
 def clear_drawing():
-    """Clear drawing"""
+    """Clear drawing."""
     tim.clear()
     tim.reset()
 
