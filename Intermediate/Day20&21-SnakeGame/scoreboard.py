@@ -18,7 +18,9 @@ class Scoreboard(Turtle):
 
     def game_over(self):
         self.goto(0, 0)
-        self.write("GAME OVER\nNo turtles were harmed in the development of this game", True, align=ALIGNMENT, font=FONT)
+        self.write("GAME OVER", True, align=ALIGNMENT, font=FONT)
+        self.goto(0, -40)
+        self.write("No turtles were harmed in the\n  development of this game", True, align=ALIGNMENT, font=FONT)
 
     def increase_score(self):
         self.score += 1
