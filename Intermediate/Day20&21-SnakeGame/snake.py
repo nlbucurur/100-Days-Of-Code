@@ -30,6 +30,13 @@ class Snake:
         """Add a new segment of the snake."""
         self.add_segment(self.segments[-1].position())
 
+    def reset(self):
+        for seg in self.segments:
+            seg.goto(1000, 1000)
+        self.segments.clear()
+        self.create_a_snake()
+        self.head = self.segments[0]
+
     def move(self):
         for segNum in range(len(self.segments) - 1, 0, -1):
             new_x = self.segments[segNum - 1].xcor()
